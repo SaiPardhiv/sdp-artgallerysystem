@@ -11,7 +11,6 @@ function About() {
     marginBottom: '30px',
     fontSize: '2.5rem',
   };
-
   const paragraphStyle = {
     marginBottom: '20px',
     fontSize: '1.1rem',

@@ -103,7 +103,7 @@ const Navbar = () => {
                 </li>
                 <li style={dropdownStyle} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <a
-                        href="#"
+                        href="/explore"
                         style={{ ...linkStyle, display: 'flex', alignItems: 'center' }}
                         onMouseEnter={(e) => e.currentTarget.style.color = '#007BFF'}
                         onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
