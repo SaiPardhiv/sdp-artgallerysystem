@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sdp-artgallerysystem/static/css/main.9a5c6096.css",
+    "main.js": "/sdp-artgallerysystem/static/js/main.6e4203b1.js",
+    "static/js/453.ac2682b1.chunk.js": "/sdp-artgallerysystem/static/js/453.ac2682b1.chunk.js",
+    "index.html": "/sdp-artgallerysystem/index.html",
+    "main.9a5c6096.css.map": "/sdp-artgallerysystem/static/css/main.9a5c6096.css.map",
+    "main.6e4203b1.js.map": "/sdp-artgallerysystem/static/js/main.6e4203b1.js.map",
+    "453.ac2682b1.chunk.js.map": "/sdp-artgallerysystem/static/js/453.ac2682b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a5c6096.css",
+    "static/js/main.6e4203b1.js"
+  ]
+}
