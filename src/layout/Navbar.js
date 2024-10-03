@@ -112,7 +112,7 @@ const Navbar = () => {
                     </a>
                     <div className="dropdown-content" style={dropdownContentStyle}>
                         <a
-                            href="/explore"
+                            href="/browse-arts" // Updated link to a more specific route
                             style={dropdownLinkStyle}
                             className="navbar-link"
                             onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f1f1f1'}
@@ -155,10 +155,12 @@ const Navbar = () => {
                 </li>
             </ul>
             <div>
-            <a href="/login" style={{ textDecoration: 'none' }}>
-                <button style={buttonStyle} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>LOGIN</button></a>
+                <a href="/login" style={{ textDecoration: 'none' }}>
+                    <button style={buttonStyle} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>LOGIN</button>
+                </a>
                 <a href="/register" style={{ textDecoration: 'none' }}>
-                <button style={buttonStyle} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>SIGNUP</button></a>
+                    <button style={buttonStyle} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>SIGNUP</button>
+                </a>
             </div>
         </nav>
     );
